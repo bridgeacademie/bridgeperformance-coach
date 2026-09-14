@@ -1,0 +1,163 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+<Layout
+  title="Expert Coaching & Hire a Professional | Richard Ritmeijer – World Bridge Champion"
+  description="Expert coaching (★★★★/★★★★★) and hiring a professional bridge partner for tournaments, with world champion Richard Ritmeijer. Request a no-obligation proposal."
+  active="coaching"
+>
+  <div class="section">
+
+    <h1>Expert coaching — for the highest level.</h1>
+    <p class="lead">Coaching is tailored to you. I look at your game, your patterns and your goals — and we work on them systematically, in a way that fits you.</p>
+
+    <div class="quick-facts">
+      <div class="quick-fact">
+        <h3>Who it's for</h3>
+        <p>For the ambitious club and tournament player who is serious about improving — from expert level to world class.</p>
+      </div>
+      <div class="quick-fact">
+        <h3>Why Richard</h3>
+        <p>World Bridge Champion (2016), Champions Cup winner (2017), WBF World International Master, 25 years of bridge teaching.</p>
+      </div>
+      <div class="quick-fact">
+        <h3>What to do now</h3>
+        <p>Fill in <a href="#proposal">the form</a> — I'll get in touch with you personally.</p>
+      </div>
+    </div>
+
+    <hr />
+
+    <h2>What I offer</h2>
+
+    <div class="offer-card">
+      <h3>Expert coaching — ★★★★ / ★★★★★</h3>
+      <p>For the expert and world-class player. In our first session I analyze your game and put together a tailored plan.</p>
+      <ul>
+        <li>One-on-one, as a partnership, or in small groups</li>
+        <li>Online or in person</li>
+        <li>Available formats: 1-on-1 online &nbsp;·&nbsp; 1-on-1 in person &nbsp;·&nbsp; pair online &nbsp;·&nbsp; pair in person &nbsp;·&nbsp; small group</li>
+        <li>A tailored plan, built around what you need</li>
+      </ul>
+      <div class="offer-price">Price on request</div>
+    </div>
+
+    <div class="offer-card">
+      <h3>Hire a professional partner</h3>
+      <p>For players at any level with the ambition to grow — not just for the absolute top.</p>
+      <ul>
+        <li>I play alongside you as a professional bridge partner at a tournament of your choice</li>
+        <li>Online, in the Netherlands, or abroad</li>
+        <li>Coaching included, before or after the tournament</li>
+      </ul>
+      <div class="offer-price">Price on request</div>
+    </div>
+
+    <div class="cross-ref">
+      <span class="cross-ref-icon">🎓</span>
+      <span>
+        <strong>Looking for courses, learning tracks, weekly training, themed lessons, clinics, or coaching at a different level — or want to work independently at a lower price point?</strong>
+        Head to <a href="https://bridgeacademie.nl">Bridge Academie</a> — from your first steps to world class.
+      </span>
+    </div>
+
+    <h2>How it works</h2>
+    <div class="two-col">
+      <div class="info-block">
+        <h3>Step 1 — Your question</h3>
+        <p style="font-size:13px;margin-bottom:0;">Fill in the form, email, or call. I'll read your question and get in touch personally within 24 hours.</p>
+      </div>
+      <div class="info-block">
+        <h3>Step 2 — A tailored proposal</h3>
+        <p style="font-size:13px;margin-bottom:0;">Based on your goals, I'll propose a package: frequency, format and focus.</p>
+      </div>
+      <div class="info-block">
+        <h3>Step 3 — Free intake</h3>
+        <p style="font-size:13px;margin-bottom:0;">The intake is free and non-binding. I analyze your game, you ask questions — and together we decide whether to start a coaching track and put together a plan.</p>
+      </div>
+      <div class="info-block">
+        <h3>Scheduling sessions</h3>
+        <p style="font-size:13px;margin-bottom:0;">After the intake, we agree on a regular rhythm together by email or phone.</p>
+      </div>
+    </div>
+
+    <hr />
+
+    <h2>Direct contact</h2>
+    <div class="direct-contact">
+      <a href="mailto:info@bridgeperformance.nl">✉ info@bridgeperformance.nl</a>
+      <a href="tel:+31610249852">☎ +31 6 10 24 98 52</a>
+    </div>
+
+    <h2 id="proposal">Or request a no-obligation proposal below</h2>
+    <p style="color:var(--muted);font-size:14px;margin-bottom:4px;">Fill in the form — I'll get in touch with you personally within 24 hours. No automated emails, just me.</p>
+
+    <div class="form-section">
+      <form id="coaching-form">
+        <div class="two-col" style="gap:14px;">
+          <div class="form-row">
+            <label class="form-label" for="naam">Name</label>
+            <input class="form-field" type="text" id="naam" name="naam" placeholder="First and last name" required />
+          </div>
+          <div class="form-row">
+            <label class="form-label" for="email">Email address</label>
+            <input class="form-field" type="email" id="email" name="email" placeholder="you@email.com" required />
+          </div>
+        </div>
+        <div class="form-row">
+          <label class="form-label" for="telefoon">Phone number</label>
+          <input class="form-field" type="tel" id="telefoon" name="telefoon" placeholder="+…" />
+        </div>
+        <div class="form-row">
+          <label class="form-label" for="onderwerp">What's your question about?</label>
+          <select class="form-select" id="onderwerp" name="onderwerp">
+            <option>— choose —</option>
+            <option>Expert coaching (★★★★/★★★★★)</option>
+            <option>Hiring a professional partner</option>
+            <option>Something else</option>
+          </select>
+        </div>
+        <div class="form-row">
+          <label class="form-label" for="formaat">Preferred format</label>
+          <select class="form-select" id="formaat" name="formaat">
+            <option>— choose —</option>
+            <option>Online</option>
+            <option>In person</option>
+            <option>No preference</option>
+          </select>
+        </div>
+        <div class="form-row">
+          <label class="form-label" for="vraag">Your question or goal</label>
+          <textarea class="form-textarea" id="vraag" name="vraag" placeholder="What do you want to achieve? What are you running into? How long have you been playing bridge?"></textarea>
+        </div>
+        <button class="form-submit" type="submit">Send my question →</button>
+      </form>
+    </div>
+
+  </div>
+
+  <script>
+    const form = document.getElementById('coaching-form') as HTMLFormElement | null;
+    form?.addEventListener('submit', (e) => {
+      e.preventDefault();
+      const val = (id: string) => (document.getElementById(id) as HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement | null)?.value || '';
+      const subject = `Inquiry via bridgeperformance.coach — ${val('onderwerp') || 'contact'}`;
+      const body = [
+        `Name: ${val('naam')}`,
+        `Email: ${val('email')}`,
+        `Phone: ${val('telefoon')}`,
+        `Subject: ${val('onderwerp')}`,
+        `Preferred format: ${val('formaat')}`,
+        '',
+        'Question/goal:',
+        val('vraag'),
+      ].join('\n');
+      window.location.href = `mailto:info@bridgeperformance.nl?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+      // mailto: opens the visitor's email client without leaving the page — then still
+      // redirect to the thank-you page, which also counts as a conversion in Vercel Web Analytics.
+      window.setTimeout(() => {
+        window.location.href = '/thank-you/';
+      }, 300);
+    });
+  </script>
+</Layout>

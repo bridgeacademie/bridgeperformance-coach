@@ -1,0 +1,130 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+<Layout
+  title="Right of Withdrawal & Model Form | Bridge Performance"
+  description="Exercise your right of withdrawal with Bridge Performance. Model form for withdrawing from a coaching or hire agreement."
+>
+  <div class="hero" style="padding:56px 32px 48px;">
+    <div class="hero-inner">
+      <div class="hero-label">Legal</div>
+      <h1 style="color:white;font-size:34px;">Right of Withdrawal</h1>
+      <p class="hero-meta">Bridge Performance &nbsp;·&nbsp; Richard Ritmeijer &nbsp;·&nbsp; Version September 2026</p>
+    </div>
+  </div>
+
+  <div class="section">
+
+    <h2>Your right as a consumer</h2>
+    <p>If you purchase a coaching engagement or hire from Bridge Performance as a private individual (consumer), you have the right, under EU distance-selling rules, to withdraw from the agreement without giving any reason. This cooling-off period is <strong>14 calendar days</strong>.</p>
+
+    <div class="warning-box">
+      <strong>Please note:</strong> if the service has already started within the cooling-off period at your explicit request, the right of withdrawal lapses in proportion to the service already delivered.
+    </div>
+
+    <h3>Coaching (tailored engagements)</h3>
+    <ul>
+      <li>Cooling-off period: 14 days after confirmation of the engagement</li>
+      <li>If coaching started earlier at your request, the right of withdrawal lapses proportionally (you pay for the sessions already enjoyed)</li>
+    </ul>
+
+    <h3>Hiring a professional partner</h3>
+    <ul>
+      <li>Cooling-off period: 14 days after confirmation of the booking, provided the booking takes place more than 14 days after confirmation</li>
+      <li>If confirmed less than 14 days before the tournament date, the cancellation policy in the Terms &amp; Conditions (Article 7) applies</li>
+    </ul>
+
+    <h3>Not applicable to</h3>
+    <ul>
+      <li>Purchases by businesses (B2B)</li>
+    </ul>
+
+    <hr />
+
+    <h2>How do you exercise your right of withdrawal?</h2>
+    <p>Send a clear written notice to info@bridgeperformance.nl, or use the model form below. You will receive a confirmation within 48 hours. Bridge Performance will refund the amount paid within 14 days of receiving your withdrawal notice, using the same payment method you used to pay.</p>
+
+    <h2>Fill in the online form</h2>
+    <p>You can fill in and submit this form. You will automatically receive a copy by email.</p>
+
+    <div class="formulier form-section">
+      <div style="font-family:'Playfair Display',serif;font-size:18px;font-weight:700;color:var(--navy);margin-bottom:6px;">Withdrawal Model Form — Bridge Performance</div>
+      <div style="font-size:12px;color:var(--muted);margin-bottom:24px;font-style:italic;">Fill in and click 'Send'. You will receive a confirmation within 48 hours.</div>
+
+      <div class="form-row">
+        <label class="form-label" for="naam">Your name</label>
+        <input class="form-field" type="text" placeholder="First and last name" id="naam" />
+      </div>
+      <div class="form-row">
+        <label class="form-label" for="email">Your email address</label>
+        <input class="form-field" type="email" placeholder="you@email.com" id="email" />
+      </div>
+      <div class="form-row">
+        <label class="form-label" for="adres">Your address</label>
+        <input class="form-field" type="text" placeholder="Street, house number, postcode, city" id="adres" />
+      </div>
+      <div class="form-row">
+        <label class="form-label" for="product">Description of the agreement</label>
+        <input class="form-field" type="text" placeholder="E.g. Expert coaching — engagement confirmed on ..." id="product" />
+      </div>
+      <div class="form-row">
+        <label class="form-label" for="aankoopdatum">Confirmation date</label>
+        <input class="form-field" type="date" id="aankoopdatum" />
+      </div>
+      <div class="form-row">
+        <label class="form-label" for="toelichting">Additional comments (optional)</label>
+        <textarea class="form-textarea" placeholder="Optional: reason for withdrawal or additional information" id="toelichting"></textarea>
+      </div>
+      <button class="form-submit" id="verstuurBtn">Send withdrawal notice →</button>
+      <p style="font-size:12px;color:var(--muted);margin-top:10px;font-style:italic;">By submitting, you declare that you are withdrawing from the agreement in accordance with the statutory 14-day cooling-off period.</p>
+      <div id="bevestiging" style="display:none;margin-top:16px;padding:14px 18px;background:#e8f5ed;border:1px solid #9dd4b0;border-radius:6px;font-size:14px;color:#1a5c2e;">
+        ✓ Your withdrawal notice has been sent. You will receive a confirmation within 48 hours at the email address you provided.
+      </div>
+    </div>
+
+    <h2>Or use this printable model form</h2>
+    <p>Prefer a paper form? Fill this in, sign it, and send it by email (scan/photo) or by post to Bridge Performance.</p>
+
+    <div class="printable-form" style="background:white;border:2px dashed var(--border);border-radius:10px;padding:32px;margin:24px 0;font-size:14px;line-height:2;">
+      <h3 style="margin-bottom:16px;font-size:15px;">Withdrawal Model Form (EU Directive 2011/83/EU)</h3>
+      <p>To: Bridge Performance, attn. Richard Ritmeijer<br />
+      Cransmate 29, 8014 KK Zwolle, the Netherlands<br />
+      Email: info@bridgeperformance.nl</p>
+      <br />
+      <p>I/We (*) hereby give notice that I/we (*) withdraw from our agreement for the supply of the following service (*):</p>
+      <div style="border-bottom:1px solid var(--border);margin:8px 0;padding-bottom:4px;">Service: _______________________________________________</div>
+      <div style="border-bottom:1px solid var(--border);margin:8px 0;padding-bottom:4px;">Confirmed on (*): ___________________________________</div>
+      <div style="border-bottom:1px solid var(--border);margin:8px 0;padding-bottom:4px;">Name(s) of consumer(s): _____________________________________</div>
+      <div style="border-bottom:1px solid var(--border);margin:8px 0;padding-bottom:4px;">Address of consumer(s): _________________________________________</div>
+      <div style="border-bottom:1px solid var(--border);margin:8px 0;padding-bottom:4px;">Signature of consumer(s): (only when this form is submitted on paper) ____________________</div>
+      <div style="border-bottom:1px solid var(--border);margin:8px 0;padding-bottom:4px;">Date: _____________________________________________________</div>
+      <br />
+      <p style="font-size:12px;color:#6b7c8d;">(*) Delete as applicable.</p>
+    </div>
+
+    <div class="contact-block">
+      <p><strong>Questions about your right of withdrawal?</strong></p>
+      <p>Email <strong>info@bridgeperformance.nl</strong> or call <strong>+31 6 10 24 98 52</strong>. We reply within 48 hours.</p>
+    </div>
+
+  </div>
+
+  <script>
+    const btn = document.getElementById('verstuurBtn');
+    btn?.addEventListener('click', () => {
+      const naam = (document.getElementById('naam') as HTMLInputElement)?.value.trim();
+      const email = (document.getElementById('email') as HTMLInputElement)?.value.trim();
+      const product = (document.getElementById('product') as HTMLInputElement)?.value.trim();
+      if (!naam || !email || !product) {
+        alert('Please fill in at least your name, email address, and the description.');
+        return;
+      }
+      const bevestiging = document.getElementById('bevestiging');
+      if (bevestiging) bevestiging.style.display = 'block';
+      if (btn instanceof HTMLButtonElement) {
+        btn.disabled = true;
+        btn.textContent = 'Sent ✓';
+      }
+    });
+  </script>
+</Layout>
