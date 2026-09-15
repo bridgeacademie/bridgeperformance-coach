@@ -430,6 +430,9 @@ blockquote {
 }
 .form-field:focus, .form-select:focus, .form-textarea:focus { outline: none; border-color: var(--gold); }
 .form-textarea { min-height: 100px; resize: vertical; }
+.phone-row { display: flex; gap: 8px; }
+.phone-row .phone-country { flex: 0 0 168px; width: 168px; }
+.phone-row .phone-number { flex: 1 1 auto; min-width: 0; }
 .form-submit {
   background: var(--navy);
   color: white;
@@ -525,10 +528,21 @@ footer {
 .intro-with-photo {
   display: flex;
   gap: 32px;
-  align-items: flex-start;
+  align-items: stretch;
   margin-bottom: 8px;
 }
-.intro-with-photo .intro-text { flex: 1 1 auto; min-width: 0; }
+.intro-with-photo .intro-text {
+  flex: 1 1 auto;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.intro-with-photo .lead {
+  font-size: 19px;
+  line-height: 2.05;
+  margin-bottom: 0;
+}
 .portrait-photo {
   flex: 0 0 200px;
   width: 200px;
@@ -574,9 +588,12 @@ footer {
   .two-col-grid { grid-template-columns: 1fr; }
   .two-col { grid-template-columns: 1fr; }
   .intro-with-photo { flex-direction: column-reverse; }
+  .intro-with-photo .lead { font-size: 17px; line-height: 1.8; }
   .portrait-photo { width: 160px; height: 200px; }
   .section { padding: 36px 20px; }
   .hero { padding: 48px 20px 40px; }
   nav { padding: 0 16px; }
   footer { padding: 20px 20px 32px; }
+  .phone-row { flex-direction: column; gap: 10px; }
+  .phone-row .phone-country { width: 100%; flex: 1 1 auto; }
 }
